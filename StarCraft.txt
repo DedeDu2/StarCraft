@@ -1,0 +1,17 @@
+# Simplified version of StarCraft II-like game
+class StarCraft2:
+    def __init__(self):
+        self.units = {"player": [], "enemy": []}
+        self.resources = {"minerals": 1000, "gas": 500}
+
+    def build_unit(self, unit_type):
+        pass
+
+    def manage_resources(self):
+        pass
+
+    def attack(self, attacker, target):
+        pass
+
+# Example usage:
+starcraft2 = StarCraft2()
